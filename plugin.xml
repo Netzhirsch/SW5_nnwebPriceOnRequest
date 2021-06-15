@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Preis auf Anfrage</label>
+    <label lang="en">Price on request</label>
+
+    <version>2.0.5</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <link>https://www.netzhirsch.de</link>
+    <license>proprietary</license>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0" />
+    
+    <description lang="de">Durch dieses Plugin können Artikel ausgewählt werden, bei denen anstatt eines Preises "Preis auf Anfrage" ausgegeben wird. Außerdem wird anstatt eines "In den Warenkorb"-Buttons ein "Preis auf Anfrage"-Button dargestellt. Dieser führt zu einem definierten Formular von dem die Anfrage gestellt werden kann.</description>
+    <description lang="en">Through this plugin, you can select items that instead of a price "price on request" is issued. In addition, instead of a "Add to Cart" button, a "Price on request" button is displayed. This leads to a defined form from which the request can be made.</description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes lang="en">Initial Release of the plugin.</changes>
+    </changelog>
+	
+    <changelog version="1.0.1">
+        <changes lang="de">Fehlerbehebung in der Installationsroutine.</changes>
+        <changes lang="en">Troubleshooting the installation routine.</changes>
+    </changelog>
+	
+    <changelog version="1.0.2">
+        <changes lang="de">Anpassungen im Controller für die Kompatibilität zu Shopware 5.4.0.</changes>
+        <changes lang="en">Adjustments in the controller for compatibility with Shopware 5.4.0.</changes>
+    </changelog>
+	
+    <changelog version="1.0.3">
+        <changes lang="de">Ausblenden des Grundpreises bei Artikel mit Preis pro Inhalt.</changes>
+        <changes lang="en">Hide the base price for items with price per content.</changes>
+    </changelog>
+
+    <changelog version="1.0.4">
+        <changes lang="de">Diverse kleinere Anpassungen. Vereinheitlichte Icons erstellt.</changes>
+        <changes lang="en">Various minor adjustments. Unified icons created.</changes>
+    </changelog>
+
+    <changelog version="1.0.5">
+        <changes lang="de">Bugfix: Unter gewissen Umständen kam es zu Smarty Security-Not Allowed Meldungen.</changes>
+        <changes lang="en">Bugfix: Under certain circumstances Smarty Security-Not Allowed messages occurred.</changes>
+    </changelog>
+
+    <changelog version="1.0.6">
+        <changes lang="de">View-Dateien für maximale Kompatibilität angepasst.</changes>
+        <changes lang="en">View files adjusted for maximum compatibility.</changes>
+    </changelog>
+
+    <changelog version="1.0.7">
+        <changes lang="de">Fehlerbehebung beim Ausblenden des Grundpreises.</changes>
+        <changes lang="en">Bugfix at hiding the base price.</changes>
+    </changelog>
+
+    <changelog version="1.0.8">
+        <changes lang="de">Event für das Ajax-Nachladen von Artikeln (infinite scrolling) hinzugefügt.</changes>
+        <changes lang="en">Added event for Ajax reloading of articles (infinite scrolling).</changes>
+    </changelog>
+
+    <changelog version="1.0.9">
+        <changes lang="de">Sub-/ und Sprachshopfähigkeit hinzugefügt. Dafür muss das Plugin leider neu installiert werden. Um die Auswahl der Artikel zu sichern, bei denen der Haken "Preis auf Anfrage" gesetzt ist muss die Spalte "nnwebPriceOnRequest" in der Tabelle "s_articles_attributes" gesichert werden. Nach der Neuinstallation des Plugins einfach die Sicherung zurück in die Datenbank schreiben.</changes>
+        <changes lang="en">Added support for sub- and language shops. Unfortunately, the plugin has to be reinstalled. In order to save the selection of articles with the check mark "Price on request", the column "nnwebPriceOnRequest" in the table "s_articles_attributes" must be saved. After reinstalling the plugin simply write the backup back to the database.</changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes lang="de">Kompatibilität zu Shopware 5.5.0 hergestellt: ionCube-Verschlüsselung wurde entfernt.</changes>
+        <changes lang="en">Compatibility with Shopware 5.5.0 made: ionCube encryption has been removed.</changes>
+    </changelog>
+
+    <changelog version="1.1.1">
+        <changes lang="de">Der Preis wird nun auch auf dem Merkzettel und im Artikelvergleich ersetzt.</changes>
+        <changes lang="en">The price will now be replaced on the notepad and in the article comparison.</changes>
+    </changelog>
+
+    <changelog version="2.0.0">
+        <changes lang="de">Die Versandinformationen werden nun bei "Preis auf Anfrage"-Artikeln ebenfalls ausgeblendet.</changes>
+        <changes lang="en">Shipping information will now be hidden on "Price on Demand"-items as well.</changes>
+    </changelog>
+
+    <changelog version="2.0.1">
+        <changes lang="de">Kompatibilität zum Bundle-Plugin von Shopware hinzugefügt.</changes>
+        <changes lang="en">Added compatibility to bundle plugin from Shopware.</changes>
+    </changelog>
+
+    <changelog version="2.0.2">
+        <changes lang="de">Weitere Anpassungen zum Bundle-Plugin von Shopware hinzugefügt.</changes>
+        <changes lang="en">Additional customizations added to the bundle plugin by Shopware.</changes>
+    </changelog>
+
+    <changelog version="2.0.3">
+        <changes lang="de">Das Preis auf Anfrage-Formular wird nun auch entsprechend der Bundle-Artikel vorausgefüllt.</changes>
+        <changes lang="en">The price on request form is now pre-filled according to the bundle article.</changes>
+    </changelog>
+
+    <changelog version="2.0.4">
+        <changes lang="de">Diverse kleinere Anpassungen.</changes>
+        <changes lang="en">Various minor adjustments.</changes>
+    </changelog>
+
+    <changelog version="2.0.5">
+        <changes lang="de">Berücksichtigung von Hidden-Inputs im Formular.</changes>
+        <changes lang="en">Consideration of hidden inputs in the form.</changes>
+    </changelog>
+</plugin>
